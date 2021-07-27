@@ -1,0 +1,158 @@
+.headerNav {
+    display: flex;
+    vertical-align: top;
+    height: 150px;
+    background-color: black;
+    justify-content: space-between;
+    
+}
+
+a  {
+    font-family: satisfy, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3%;
+    padding-right: 5%;
+}
+
+a #logo  {
+    text-align: center;
+    justify-content: center;
+    height: 145px !important;
+    padding-bottom: 20px !important;
+    padding-top: none !important;
+}
+
+.PageTitle {
+    font-family: satisfy, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 62px;
+    color: #fe6b6b;
+    padding: 2%;
+}
+
+.jumboEpaPics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.EPAphone {
+    height: 623px;
+    width: 311px;
+}
+
+.EPAweb {
+    height: 354px;
+    width: 647px;
+    justify-content: center;
+}
+
+h2 {
+    font-family: hero-new, sans-serif;
+    font-weight: 200;    
+    font-style: light;
+    color: #2c8dc4;
+    padding: 2%
+}
+
+p {
+    font-family: hero-new, sans-serif;
+    font-weight: 200;    
+    font-style: light;
+    color: black;
+    padding-left: 2%;
+}
+
+h3 {
+    padding-left: 2%;
+
+}
+
+.card {
+    /*width: 75%;*/
+    margin: 2%;
+
+}
+
+.cardSections1 {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+}
+
+.cardSections2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin: auto;
+
+}
+
+#sitemapImg {
+    width: 214px;
+    height: 406px;
+}
+
+.cardSections3 {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: black;
+    padding: 1%;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-family: hero-new-hairline, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 22px;
+    padding-top: 25px;
+    }
+
+footer ul {
+    display: inline-block;
+}
+footer li {
+    color: white;
+    justify-content: space-between;
+}
+
+.footerlogo {
+    display: inline-block;
+    padding: 1%;
+    height: 200px;
+    width: 200px;
+    padding-bottom: 30px;
+}
+.footerRight {
+    float: right;
+    justify-content: flex-end;
+}
+
+.footerRight a {
+    justify-content: center;
+}
+
+.backtotop {
+    border: 1px solid #2c8dc4;
+    border-radius: 12px;
+    background-color: white;
+    color: #2c8dc4;
+    padding: 10px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 2%;
+
+}
